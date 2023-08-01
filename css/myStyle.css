@@ -1,17 +1,16 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-  /*margin: 0px;
-  padding: 0;*/
 }
 h1 {
   margin-bottom: 15px;
   text-align: center;
+  font-size: 2.5em;
 }
 
 p {
   border: 1px solid black;
-  background-color: #ECCF93;
+  background-color: #EEBF89;
   width: 90%;
   height: 150px;
   margin-right: auto;
@@ -22,12 +21,11 @@ p {
   font-size: 1.1em;
   margin-top: -25px;
   padding: 10px;
-  text-align: justify-all;
   overflow: auto;
 }
 
 #p1 {
-  background-color: #B49652;
+  background-color: #EF553D;
   border: 1px solid black;
   position: relative;
   top: 43px;
@@ -155,8 +153,12 @@ p {
   }
   .col-md-12 {
     width: 100%;
-    padding: 5px;
+  }
 
+  .p-md {
+    width: 105%;
+    position: relative;
+    left: -23px;
   }
 }
 
